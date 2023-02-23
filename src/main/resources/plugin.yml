@@ -1,0 +1,15 @@
+name: Duellum
+version: '${project.version}'
+main: de.aaroneggert.duellum.Duellum
+api-version: 1.19
+prefix: Duellum
+authors: [ AaronEggert, ARN27 ]
+description: Ein Minecraft Spigot Plugin das ein Kampfproject von 2er Teams managed.
+website: https://github.com/AaronEggert
+commands:
+  test:
+    description: Testcommand
+    usage: /<command>
+  team:
+    description: Befehl für das managen von Teams
+    usage: /<command> <arg> <name> <tag>
